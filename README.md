@@ -15,7 +15,7 @@
 
 ## 📊 Evaluación
 
-La rúbrica de evaluación para el avance parcial del proyecto 1 se encuentr en este [link](https://github.com/IEE2463-SEP/PROY01/blob/main/Rubrica_Avance_Proyecto_01_IEE2463%20(1).pdf)
+La rúbrica de evaluación para el avance parcial del proyecto 1 se encuentr en este [link](https://github.com/IEE2463-SEP/PROY01/blob/main/Rubrica_Avance_Proyecto_01_IEE2463_.pdf)
 
 ---
 
