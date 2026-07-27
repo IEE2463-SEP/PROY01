@@ -8,14 +8,14 @@
 
 | Documento | Descripción |
 | :--- | :--- |
-| [Enunciado del proyecto](https://github.com/IEE2463-SEP/PROY01/blob/main/Proyecto_01_IEE2463.pdf) | En este link encontrará el enunciado del proyecto. Lea cuidadosamente todas las instrucciones. |
-| [Plantilla del informe](https://github.com/IEE2463-SEP/PROY01/blob/main/Informe_Proyecto_1_SEP.zip) | En este link encontrará la plantilla en overleaf para l enterga del informe asociado a su proyecto. |
+| [Enunciado del proyecto](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf) | En este link encontrará el enunciado del proyecto. Lea cuidadosamente todas las instrucciones. |
+| [Plantilla del informe](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Informe_Proyecto_1_SEP.zip) | En este link encontrará la plantilla en overleaf para l enterga del informe asociado a su proyecto. |
 
 ---
 
 ## 📊 Evaluación
 
-La rúbrica de evaluación para el avance parcial del proyecto 1 se encuentr en este [link](https://github.com/IEE2463-SEP/PROY01/blob/main/Rubrica_Avance_Proyecto_01_IEE2463_.pdf)
+La rúbrica de evaluación para el avance parcial del proyecto 1 se encuentr en este [link](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Rubrica_Avance_Proyecto_01_IEE2463_.pdf)
 
 ---
 
