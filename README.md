@@ -1,65 +1,59 @@
 # PROY01 · Proyecto 1
 
-> Primer proyecto en la tarjeta Zybo Z7, con foco en VHDL. Se desarrolla en grupo y se evalúa con un informe, un video y el proyecto implementado en la tarjeta.
+> Primer proyecto en la Zybo Z7, con foco en VHDL.
 
-El proyecto consiste en plantear e implementar una idea propia y coherente que abarque **10 actividades**: 3 obligatorias (AO1–AO3) y 7 complementarias (AC1–AC7). Las obligatorias son el mínimo para aprobar; las complementarias son las que permiten optar al 7,0. Todo el detalle está en el enunciado.
+El proyecto consiste en implementar en la tarjeta una idea propia y coherente que abarque **10 actividades**: 3 obligatorias (AO1–AO3) y 7 complementarias (AC1–AC7). Las obligatorias son el mínimo para aprobar; las complementarias son las que permiten llegar al 7,0. Se trabaja en grupo y la definición de cada actividad está en el [enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf).
 
 ---
 
-## 📋 Enunciado y entrega
+## 📦 Entregas
 
-| Documento | Descripción |
+Son dos, y **ambas se entregan por el buzón de Canvas**.
+
+### 1. Avance
+
+Se evalúa antes de terminar el proyecto, en la fecha marcada como *Evaluación Avance Proyecto 1* en la planificación. Compromete:
+
+| Qué entrega | Peso |
 | :--- | :--- |
-| [Enunciado del proyecto](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf) | Las 10 actividades, el cumplimiento ético, el formato de entrega y la rúbrica de evaluación. **Léalo completo antes de empezar.** |
-| [Plantilla del informe](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Informe_Proyecto_1_SEP.zip) | Plantilla LaTeX (formato IEEE Access) para subir a Overleaf. Trae las secciones fijas del informe, el puntaje de cada una y un mini tutorial de LaTeX. |
-| [Penalización por entrega atrasada](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Penalizaci%C3%B3n_Entregas_Proyecto.pdf) | Cómo baja la nota si entrega fuera de plazo: descuento de 0,1 cada 6 minutos durante las 2 primeras horas, y decaimiento cuadrático hasta 1,0 a las 12 horas. |
+| El **diagrama** del proyecto | 50 % |
+| Dos **actividades obligatorias**, a su elección | 25 % cada una |
 
-La entrega es **un solo PDF en Canvas** con tres links: informe, video y un `.zip` con el proyecto de Vivado/Vitis. Subir más de 3 archivos, con nombres o formato incorrectos, **penaliza la nota final con 1 punto**.
+Puede reemplazar **una** de las dos actividades obligatorias por dos complementarias; en ese caso se promedian.
 
----
+A esto se suman las **jornadas de avance semanal** (PROG01–PROG04), donde se llama al azar a 3 a 5 grupos para revisar cómo van. La nota final del avance es el promedio entre la evaluación formal y esas jornadas. Los criterios de ambas están en la [rúbrica de avance](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Rubrica_Avance_Proyecto_01_IEE2463_.pdf).
 
-## 🧩 El diagrama del proyecto
+### 2. Entrega final
 
-El **diagrama** es un entregable por sí mismo: vale el **50 % de la nota de avance del proyecto**, por encima de cada actividad obligatoria (25 % cada una). No es un dibujo decorativo — es donde usted demuestra que sabe qué va a construir antes de construirlo.
+Compromete tres cosas:
 
-Para que valga nota 7,0 el diagrama debe estar hecho de forma prolija en un software, indicar sobre cada flecha **qué datos se transaccionan entre bloques**, y marcar con colores **dónde se cumple cada una de las 10 actividades**.
-
-| Documento | Descripción |
-| :--- | :--- |
-| [Diagramas de ejemplo](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/diagramas_proyecto_1.pdf) | Ejemplo real de un proyecto de un semestre anterior, usado como referencia del estándar esperado. |
-
-Ese archivo es el diagrama de *El Para Cronómetro Inador*, un juego de reflejos con niveles de dificultad desarrollado por el Grupo 19 de un semestre anterior. Está organizado así:
-
-- **Diagrama de bloques con insignias** (p. 1) — la arquitectura completa, con una insignia sobre cada bloque indicando qué actividad se cumple ahí: `AO2 1/3` significa "una de las tres partes con que se cumple la AO2". Esto es exactamente lo que pide la rúbrica.
-- **Portada** (p. 2) — nombre del proyecto y grupo.
-- **Máquina de estados** (p. 3) — los estados S0 a S4 con las transiciones por botón y qué muestran los LEDs en cada uno. Es la vista de comportamiento, complementaria a la de bloques.
-- **Segunda versión del diagrama de bloques** (p. 4) — sin insignias y con la memoria organizada distinto (dos *Memory Managers* y una BRAM *Simple Dual Port*). Sirve para ver que el diagrama se rehace a medida que el proyecto evoluciona.
-- **Checklist de las 10 actividades** (p. 5) — con ✓ las logradas y con `+/-` las parcialmente logradas. Note que el grupo marcó AC3 y AC6 como parciales: se espera honestidad, no inflar el cumplimiento.
-- **Una lámina por actividad** (p. 6 en adelante) — la evidencia concreta de cada AO y AC: el fragmento de código, el *block design* o la captura de ILA/VIO que la demuestra.
-
-**Úselo como referencia de formato y nivel de detalle, no como plantilla a copiar.** La idea del proyecto debe ser de su autoría, y cualquier elemento tomado de otra fuente debe quedar referenciado.
-
----
-
-## 📊 Evaluación
-
-La nota del proyecto se compone de la **entrega final** y del **avance**.
-
-| Entrega final | Peso | Dónde está el detalle |
+| Qué entrega | Peso | Dónde está el detalle |
 | :--- | :--- | :--- |
-| Informe | 35 % | [Plantilla del informe](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Informe_Proyecto_1_SEP.zip) — cada sección indica su puntaje |
-| Video | 35 % | [Enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf), sección 4.2. Entre 5 y 15 min; sobre 15 min no se revisa |
-| Códigos | 30 % | [Enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf), sección 4.3 |
+| **Informe** | 35 % | [Plantilla](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Informe_Proyecto_1_SEP.zip) — cada sección indica su puntaje |
+| **Video** | 35 % | [Enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf), sección 4.2 |
+| **Códigos** | 30 % | [Enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf), sección 4.3 |
 
-| Avance | Descripción |
+Al buzón sube **un solo PDF** con tres links: el informe, el video y un `.zip` con el proyecto de Vivado/Vitis. El video dura entre 5 y 15 minutos: sobre 15 no se revisa.
+
+Dos cosas que cuestan nota por sí solas: **subir más de tres archivos, o nombrarlos mal, descuenta 1 punto** de la nota final, y **entregar atrasado descuenta según el [documento de penalización](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Penalizaci%C3%B3n_Entregas_Proyecto.pdf)** — 0,1 cada 6 minutos durante las 2 primeras horas, y 1,0 a partir de las 12 horas.
+
+---
+
+## 📂 Documentos
+
+| Archivo | Qué contiene |
 | :--- | :--- |
-| [Rúbrica de avance](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Rubrica_Avance_Proyecto_01_IEE2463_.pdf) | Evaluación formal de avance (50 % diagrama + 25 % AO + 25 % AO) y las jornadas de avance semanal PROG01–PROG04, donde se llama al azar a 3–5 grupos. |
+| [Enunciado](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Proyecto_01_IEE2463.pdf) | Las 10 actividades, el cumplimiento ético, el formato de entrega y la rúbrica de la entrega final. |
+| [Plantilla del informe](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Informe_Proyecto_1_SEP.zip) | Plantilla LaTeX (formato IEEE Access) para subir a Overleaf, con las secciones fijas y su puntaje. |
+| [Rúbrica de avance](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Rubrica_Avance_Proyecto_01_IEE2463_.pdf) | Qué se espera del diagrama y de cada actividad obligatoria, nota por nota. |
+| [Penalización por atraso](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/Penalizaci%C3%B3n_Entregas_Proyecto.pdf) | Cómo baja la nota según los minutos de retraso. |
+| [Diagramas de ejemplo](https://github.com/IEE2463-SEP/PROY01/blob/HEAD/diagramas_proyecto_1.pdf) | El diagrama de un proyecto real de un semestre anterior, con el nivel de detalle que se espera: los datos rotulados sobre cada flecha y una marca en cada bloque indicando qué actividad se cumple ahí. |
 
 ---
 
 ## 🗂️ Proyectos de ejemplo
 
-Dos proyectos completos de semestres anteriores, con informe, video, código y proyecto de Vivado:
+Dos proyectos completos de semestres anteriores, con informe, video y código:
 
 | Repositorio | Proyecto |
 | :--- | :--- |
@@ -70,9 +64,9 @@ Dos proyectos completos de semestres anteriores, con informe, video, código y p
 
 ## ❓ Dudas
 
-Cualquier duda asociada al proyecto debe ser subida como un *issue* en este repositorio.
+Suba cualquier duda del proyecto como un *issue* en este repositorio.
 
-Mucho éxito en el desarrollo del proyecto.
+Mucho éxito.
 
 ---
 
